@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem "paperclip"
-gem 'aws-sdk'
+gem 'aws-sdk', "< 2.0"
 
 group :production do
 	gem 'pg'
